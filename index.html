@@ -7,8 +7,15 @@
       src="https://kit.fontawesome.com/e422ee9676.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <h1>Etch-a-Sketch</h1>
     <div id="container">
       <div id="buttons-container">
         <button id="clear" class="button" onclick="clearGrid()">
@@ -20,7 +27,7 @@
         <button id="eraser" class="button" onclick="fillingGrid('eraser')">
           <i class="fa-solid fa-eraser" id="eraser-icon"></i> Eraser
         </button>
-        <div id="color-container">
+        <div id="color-container" class="button">
           <input
             type="color"
             id="colorPicker"

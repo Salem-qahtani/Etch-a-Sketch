@@ -1,10 +1,16 @@
 body {
   background-color: aliceblue;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-family: "Bungee", sans-serif;
+  color: rgb(130, 188, 255);
 }
 #container {
-  margin-top: 50px;
+  margin-top: 20px;
   width: 600px;
 }
 #grid-container {
@@ -12,6 +18,7 @@ body {
   background-color: white;
   margin-top: 20px;
   height: 600px;
+  box-shadow: 1px 1px 5px;
 }
 .button {
   margin-left: 5px;
@@ -21,19 +28,27 @@ body {
   color: rgb(116, 116, 116);
   font-family: Arial, Helvetica, sans-serif;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   font-size: 1em;
 }
 i {
   color: rgb(167, 167, 167);
 }
 .chosen {
-  color: rgb(162, 194, 255);
+  background-color: rgb(162, 194, 255);
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.2s ease-in;
+}
+.chosenColor {
+  color: rgb(112, 162, 255);
   font-weight: bold;
 }
 #color {
+  margin-bottom: 5px;
   margin-left: 0px;
-  padding: 2px;
+  padding: 0px;
+  padding-left: 2px;
 }
 #color-container {
   display: flex;
@@ -44,9 +59,9 @@ i {
 }
 #colorPicker {
   padding: 0px;
-  margin-top: 5px;
+  margin-top: 2px;
   margin-left: 5px;
-  margin-right: 0px;
+  margin-right: 2px;
   background-color: white;
   border: none;
 }
@@ -70,6 +85,7 @@ i {
   font-size: 1.5em;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
+  color: rgb(98, 151, 249);
 }
 #size {
   margin-left: 15px;
@@ -77,6 +93,10 @@ i {
   text-align: center;
   font-size: 1.1em;
   width: 150px;
+  border-radius: 10px;
+  padding: 5px;
+  color: rgb(116, 116, 116);
+  border: 2px solid rgb(183, 183, 183);
 }
 #generate-container {
   margin-top: 20px;
@@ -89,7 +109,7 @@ i {
   color: rgb(255, 255, 255);
   font-family: Arial, Helvetica, sans-serif;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   font-size: 1.2em;
   font-weight: bold;
   transition: background-color 0.3s ease-in;

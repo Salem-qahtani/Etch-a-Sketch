@@ -63,7 +63,7 @@ function fillingGrid(choice) {
     case "color":
       fixedColor();
       clearButtons();
-      colorBtn.classList.add("chosen");
+      colorBtn.classList.add("chosenColor");
       break;
   }
 }
@@ -152,6 +152,7 @@ function clearButtons() {
   const icons = document.querySelectorAll("i");
   buttons.forEach((element) => {
     element.classList.remove("chosen");
+    element.classList.remove("chosenColor");
   });
   icons.forEach((element) => {
     element.classList.remove("chosen");
