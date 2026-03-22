@@ -1,108 +1,106 @@
-body{
-    background-color: aliceblue;
-    display: flex;
-    justify-content: center;
+body {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
 }
-#container{
-    margin-top: 50px;
-    width: 600px;
+#container {
+  margin-top: 50px;
+  width: 600px;
 }
-#grid-container{
-    display: grid;
-    background-color: white;
-    margin-top: 20px;
-    height :600px;
+#grid-container {
+  display: grid;
+  background-color: white;
+  margin-top: 20px;
+  height: 600px;
 }
-.button{
-    margin-left: 5px;
-    margin-right: 5px;
-    background-color: white;
-    padding: 10px;
-    color: rgb(116, 116, 116);
-    font-family: Arial, Helvetica, sans-serif;
-    border: none;
-    border-radius: 5px;
-    font-size: 1em;
+.button {
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: white;
+  padding: 10px;
+  color: rgb(116, 116, 116);
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
 }
-i{
-    color:rgb(167, 167, 167);
+i {
+  color: rgb(167, 167, 167);
 }
-.chosen{
-    color:rgb(162, 194, 255);
-    font-weight: bold;
+.chosen {
+  color: rgb(162, 194, 255);
+  font-weight: bold;
 }
-#color{
-    margin-left: 0px;
-    padding: 2px;
+#color {
+  margin-left: 0px;
+  padding: 2px;
 }
-#color-container{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    background-color: white;
-    margin-left: 5px;
+#color-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: white;
+  margin-left: 5px;
 }
-#colorPicker{
-    padding: 0px;
-    margin-top: 5px;
-    margin-left: 5px;
-    margin-right: 0px;
-    background-color: white;
-    border: none;
+#colorPicker {
+  padding: 0px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 0px;
+  background-color: white;
+  border: none;
 }
-#color-container label{
-    margin-top: 8px;
+#color-container label {
+  margin-top: 8px;
 }
-#buttons-container{
-    display: flex;
-    justify-content: center;
+#buttons-container {
+  display: flex;
+  justify-content: center;
 }
-.box{
-    border-left: 1px solid rgba(222, 222, 222, 0.33);
-    border-bottom: 1px solid rgba(222, 222, 222, 0.33);
+.box {
+  border-left: 1px solid rgba(222, 222, 222, 0.33);
+  border-bottom: 1px solid rgba(222, 222, 222, 0.33);
 }
-#size-container{
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
+#size-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
 }
-#size-container label{
-    font-size: 1.5em;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+#size-container label {
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
 }
-#size{
-    margin-left: 15px;
-    font-weight: bold;
-    text-align: center;
-    font-size: 1.1em;
-    width: 150px;
+#size {
+  margin-left: 15px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.1em;
+  width: 150px;
 }
-#generate-container{
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
+#generate-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
 }
-#generate{
-    background-color: rgb(162, 194, 255);
-    padding: 10px;
-    color: rgb(255, 255, 255);
-    font-family: Arial, Helvetica, sans-serif;
-    border: none;
-    border-radius: 5px;
-    font-size: 1.2em;
-    font-weight: bold;
-    transition: background-color 0.3s ease-in;
+#generate {
+  background-color: rgb(162, 194, 255);
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in;
 }
-#generate:hover{
-    background-color: rgb(97, 152, 255);
-    
+#generate:hover {
+  background-color: rgb(97, 152, 255);
 }
-#generate:active{
-    background-color: rgb(199, 224, 255);
-    transition: none;
-    
+#generate:active {
+  background-color: rgb(199, 224, 255);
+  transition: none;
 }
-#grid-icon{
-    font-size: 1.1em;
+#grid-icon {
+  font-size: 1.1em;
 }
