@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Etch-a-Sketch</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/e422ee9676.js" crossorigin="anonymous"></script> 
+    </head>
+    <body>
+        <div id="container">
+            <div id="buttons-container">               
+                <button id="clear" class="button" onclick="clearGrid()"><i class="fa-solid fa-arrow-rotate-left" id="clear-icon"></i> Clear</button>
+                <button id="random" class="button" onclick="fillingGrid('random')"><i class="fa-solid fa-rainbow" id="random-icon"></i> Random</button>
+                <button id="eraser" class="button" onclick="fillingGrid('eraser')"><i class="fa-solid fa-eraser" id="eraser-icon"></i> Eraser</button>
+                <div id="color-container"><input type="color" id="colorPicker" value="#000000" onclick="fillingGrid('color')"><label id="color"class="button" onclick="fillingGrid('color')">Color</label></div>
+                
+            </div>
+            <div id="grid-container">
+            </div>
+        <div id="size-container">
+            <label for="size">Custom Resolution (1-100) : </label>
+            <input type="number" id="size" max="100" min="1">
+        </div>
+        <div id="generate-container">
+            <button id="generate" onclick="generateNewGrid()">Generate</button>
+        </div>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
